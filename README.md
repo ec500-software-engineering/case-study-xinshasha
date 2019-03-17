@@ -40,7 +40,21 @@ b. No part is asynchronous.<br>
 c. Diagram for a pytorch system.<br>
 ![image](https://github.com/ec500-software-engineering/case-study-xinshasha/blob/master/Pytorch_Structure.png)<br>
 ```net.py``` saves the model defined by users. ```data_loader.py``` is the data prepocessing scripts.```train.py``` is the training strategy and ```evaluate.py``` is the way to evaluate the model.<br>
-For torch lib,
+For torch lib,I cant find any existed diagram. I draw one from to myown understanding.<br>
+![image](https://github.com/ec500-software-engineering/case-study-xinshasha/blob/master/Torch.png)<br>
+d. Informations are manipulated in tensors. And tensors share memory with numpy arrays.<br>
+e. It's a set of functions to be used. The architecture depends on the real project.<br>
+f. All funtions are bagged in an object in putorch.
+
+#### Analyze two defects in the project--e.g. open GitHub issue, support request tickets or feature request for the project<br>
+a. Does the issue require an architecture change, or is it just adding a new function or?<br>
+b. make a patch / pull request for the project to fix problem / add feature.<br>
+<br>
+1. The issues are mostly requires help from developer to use the lib. Most of them do not require a new funtion or architecture change.<br>
+2. Most of them like [#18104](https://github.com/pytorch/pytorch/issues/18104) are requiring help for bug fixing. Not only developers but also other users will be helpful.<br>
+### Demo for Pytorch.<br>
+
+
 
 
 
