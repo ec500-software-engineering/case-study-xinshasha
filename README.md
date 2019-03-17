@@ -36,8 +36,11 @@ f.Does the project lean more towards object oriented or functional components<br
 
 a. pytorch is a relatively low level lib so that users can manipulate nearly every variables in Model. It's flexible to use build-in api to modify the project and fullfill user's requirements.
 Users may use torch.tenser to manipulate data, torth.nn to build model, torch.nn.functional to define their own functions,torch.optim to inital the training steps and so on.<br>
-b. No part is asynchronous.
-c. Diagram for a pytorch system.
+b. No part is asynchronous.<br>
+c. Diagram for a pytorch system.<br>
+![image](https://github.com/ec500-software-engineering/case-study-xinshasha/blob/master/Pytorch_Structure.png)<br>
+```net.py``` saves the model defined by users. ```data_loader.py``` is the data prepocessing scripts.```train.py``` is the training strategy and ```evaluate.py``` is the way to evaluate the model.<br>
+For torch lib,
 
 
 
