@@ -53,7 +53,8 @@ b. make a patch / pull request for the project to fix problem / add feature.<br>
 1. The issues are mostly requires help from developer to use the lib. Most of them do not require a new funtion or architecture change.<br>
 2. Most of them like [#18104](https://github.com/pytorch/pytorch/issues/18104) are requiring help for bug fixing. Not only developers but also other users will be helpful.<br>
 ### Demo for Pytorch.<br>
-
+See the [demo](https://github.com/ec500-software-engineering/case-study-xinshasha/blob/master/Demo_Torch.ipynb).
+It's a LeNet on Mnist with acc = 98.7%.
 
 
 
