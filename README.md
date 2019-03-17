@@ -11,7 +11,7 @@ a. Pytorch is a deep learning framework written in python but has a core compile
 I think the same choice would be made if the project was started today. And I will also choose to use python.<br>
 Pytorch is compiled with C++ and CUDA because they are compiled languages and can be run much faster than python. However, it's a trade-off that C++ and CUDA are less user-friendly than python.
 And Python can control a C++ backend perfectly, so it's a good choice to use python API.<br><br>
-b. Cmake is used to build pytorch. GCC and NVCC are necessary.<br><br>
+b. Cmake is used to build pytorch. GCC is necessary for building.<br><br>
 c. Pytorch is developed as native python lib. And its dependencies are ```numpy,pyyaml,mkl,mkl-include,setuptools,cmake,cffi,typing```<br>
 Pytorch has no specific backend but utilizes different backends for CPU, GPU and different backends.<br>
 For cpu, it depends on MKL and OpenBLAS. For GPU, it depends on CuDNN and CUDA.<br><br>
