@@ -21,7 +21,7 @@ a.How are they ensuring the testing is meaningful? Do they have code coverage me
 b.What CI platform(s) are they using (e.g. Travis-CI, AppVeyor)?<br>
 c.What computing platform combinations are tested on their CI? E.g. Windows 10, Cygwin, Linux, Mac, GCC, Clang<br>
 <br>
-a. There are code coverage metrics for pytorch according to some issues and for some pytorch-based libs like pytorch-geometric uses ```.coveragerc``` to test coverage.<br><br>
+a. There are code coverage metrics for pytorch and for some pytorch-based libs. For example, pytorch-geometric uses ```.coveragerc``` to test coverage.<br><br>
 b. Travis-CI was used accoding to [```.travis.yml```](https://github.com/pytorch/pytorch/blob/master/.travis.yml). However, for now,circle CI is used for test accoding to the commit history and [```.circleci```](https://github.com/pytorch/pytorch/tree/master/.circleci).<br><br>
 c. According to  [```.travis.yml```](https://github.com/pytorch/pytorch/blob/master/.travis.yml) and [```.travis.aten.yml```](https://github.com/pytorch/pytorch/blob/master/.travis.aten.yml), Linux and CLang are tested.
 And Linux,CLang,Mac,GCC is tested under circleci.<br><br>
